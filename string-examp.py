@@ -20,4 +20,20 @@ wordStrip = 'www.burayaeklenenkelime.com.tr'
 
 wordStripResult = wordStrip.strip('w.comtr')
 
-print(wordStripResult)
+#print(wordStripResult)
+
+course = 'Python Öğrenmesi kolay OOP bir Dildir.'
+
+lowerCaseResult = course.lower()
+upperCaseResult = course.upper()
+titleResult = course.title()
+
+"""
+print(lowerCaseResult)
+print(upperCaseResult)
+print(titleResult)
+"""
+
+
+
+
