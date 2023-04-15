@@ -39,8 +39,26 @@ countResult = course.count('i')
 ## cont for range
 countRangeResult = course.count('i',10, 20)
 
-print(countResult)
+"""
 print(countRangeResult)
+print(countResult)
+"""
+
+## letter startwith
+startWithResult = wordStrip.startswith('www')
+startWithResult1 = wordStrip.startswith('a')
+
+## letter endwidth
+endwidthResult = wordStrip.endswith('com')
+endwidthResult1 = wordStrip.endswith('tr')
+
+print(startWithResult)
+print(startWithResult1)
+print(endwidthResult)
+print(endwidthResult1)
+
+
+
 
 
 
