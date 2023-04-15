@@ -34,6 +34,14 @@ print(upperCaseResult)
 print(titleResult)
 """
 
+## count letter for word
+countResult = course.count('i')
+## cont for range
+countRangeResult = course.count('i',10, 20)
+
+print(countResult)
+print(countRangeResult)
+
 
 
 
