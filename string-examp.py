@@ -52,10 +52,33 @@ startWithResult1 = wordStrip.startswith('a')
 endwidthResult = wordStrip.endswith('com')
 endwidthResult1 = wordStrip.endswith('tr')
 
+"""
 print(startWithResult)
 print(startWithResult1)
 print(endwidthResult)
 print(endwidthResult1)
+"""
+## returns the first letter index
+findWordResult = course.find('O')
+## if no letter returns -1
+findWordResult1 = course.find('Z')
+## searches in range, is 
+findWordResult2 = course.find('z', 0, 20)
+
+"""
+print(findWordResult)
+print(findWordResult2)
+"""
+
+## searches result with index method
+indexMethodResult = course.index('Dildir')
+indexMethodResult1 = course.index('Dildir-')
+
+"""
+print(indexMethodResult)
+print(indexMethodResult1)
+"""
+
 
 
 
