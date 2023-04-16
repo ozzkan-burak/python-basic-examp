@@ -1,4 +1,6 @@
 stripWord = ' Hello World '
+course = 'Python Öğrenmesi kolay OOP 1 Dildir.'
+alphabetic = "Merhaba"
 
 ## iki taraftan boşlukları siler
 stripResult = stripWord.strip()
@@ -22,7 +24,7 @@ wordStripResult = wordStrip.strip('w.comtr')
 
 #print(wordStripResult)
 
-course = 'Python Öğrenmesi kolay OOP bir Dildir.'
+
 
 lowerCaseResult = course.lower()
 upperCaseResult = course.upper()
@@ -72,12 +74,21 @@ print(findWordResult2)
 
 ## searches result with index method
 indexMethodResult = course.index('Dildir')
-indexMethodResult1 = course.index('Dildir-')
+#indexMethodResult1 = course.index('Dildir-')
 
 """
 print(indexMethodResult)
 print(indexMethodResult1)
 """
+## isAlpha
+islAlphaResult = course.isalpha()
+islAlphaResult1 = alphabetic.isalpha()
+
+"""
+print(islAlphaResult)
+print(islAlphaResult1)
+"""
+
 
 
 
