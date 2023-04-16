@@ -121,10 +121,19 @@ replaceResult2 = course.replace(' ', '')
 #replace word
 replaceResult3 = stripWord.replace('World', 'There')
 
+"""
 print(replaceResult)
 print(replaceResult1)
 print(replaceResult2)
 print(replaceResult3)
+"""
+
+# split method
+splitResult = course.split(' ')
+splitResult2 = splitResult[2]
+
+print(splitResult)
+print(splitResult2)
 
 
 
