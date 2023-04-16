@@ -1,6 +1,7 @@
 stripWord = ' Hello World '
 course = 'Python Öğrenmesi kolay OOP 1 Dildir.'
 alphabetic = "Merhaba"
+digit = '123'
 
 ## iki taraftan boşlukları siler
 stripResult = stripWord.strip()
@@ -88,6 +89,19 @@ islAlphaResult1 = alphabetic.isalpha()
 print(islAlphaResult)
 print(islAlphaResult1)
 """
+
+# isdigit method
+digitResult = digit.isdigit()
+
+#print(digitResult)
+
+# center method, add lenght parameter and second add chracter
+
+centerResult = alphabetic.center(50, '-')
+centerResult1 = alphabetic.center(45, '*')
+
+print(centerResult)
+print(centerResult1)
 
 
 
