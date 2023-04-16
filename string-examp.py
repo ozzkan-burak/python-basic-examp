@@ -102,10 +102,30 @@ centerResult1 = alphabetic.center(45, '*')
 justResult = alphabetic.ljust(50, '*')
 justResult2 = alphabetic.rjust(50, '-')
 
+"""
 print(centerResult)
 print(centerResult1)
 print(justResult)
 print(justResult2)
+"""
+
+# replace char
+replaceResult = course.replace(' ', '-')
+
+#repalce char for ranage
+replaceResult1 = course.replace(' ', '-', 3)
+
+#replace delete char
+replaceResult2 = course.replace(' ', '')
+
+#replace word
+replaceResult3 = stripWord.replace('World', 'There')
+
+print(replaceResult)
+print(replaceResult1)
+print(replaceResult2)
+print(replaceResult3)
+
 
 
 
