@@ -99,9 +99,13 @@ digitResult = digit.isdigit()
 
 centerResult = alphabetic.center(50, '-')
 centerResult1 = alphabetic.center(45, '*')
+justResult = alphabetic.ljust(50, '*')
+justResult2 = alphabetic.rjust(50, '-')
 
 print(centerResult)
 print(centerResult1)
+print(justResult)
+print(justResult2)
 
 
 
